@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://eveschmidt.github.io/annotation-music/annotations/meshes-of-the-afternoon-canvas-1-music.json",
+  "type": "AnnotationPage",
+  "label": "Music",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "meshes-of-the-afternoon-canvas-1-music-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "As the key falls after it is dropped, the music transitions into a sped up beat which makes the small action seem detrimental. ",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://eveschmidt.github.io/annotation-music/meshes-of-the-afternoon/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://eveschmidt.github.io/annotation-music/meshes-of-the-afternoon/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "4140.0,4680.0"
+        }
+      }
+    }
+  ]
+}

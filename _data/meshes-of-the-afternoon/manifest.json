@@ -23,6 +23,16 @@
         "id": "https://eveschmidt.github.io/annotation-music/meshes-of-the-afternoon/canvas-1/canvas",
         "type": "Canvas",
         "duration": 809.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://eveschmidt.github.io/annotation-music/annotations/meshes-of-the-afternoon-canvas-1-music.json",
+            "label": {
+              "none": ["Music"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://eveschmidt.github.io/annotation-music/meshes-of-the-afternoon/canvas-1/paintings",
